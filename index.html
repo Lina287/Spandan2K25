@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanadan 2K25</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@800&family=Tangerine:wght@700&family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Vintage Background Elements -->
+    <div class="vintage-bg">
+        <div class="ink-blot"></div>
+        <div class="ink-blot"></div>
+        <div class="handwritten-line"></div>
+        <div class="handwritten-line"></div>
+    </div>
+
+    <!-- Updated Splash Screen -->
+    <div class="splash-screen">
+        <div class="splash-content">
+            <div class="ink-spot"></div>
+            <div class="ink-spot"></div>
+            <div class="logo-container">
+                <img src="logo1.png" alt="Spanadan Logo" class="logo">
+                <img src="logo2.png" alt="RJS Group Logo" class="logo">
+                <img src="logo3.png" alt="College Logo" class="logo">
+            </div>
+            <img src="logo4.png" alt="Spanadan 2K25" class="splash-logo">
+            <div class="splash-subtitle">State level cultural Youth festival<br>Organized by: RJS Group of Institutes</div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="header">
+                <img src="logo4.png" alt="Spanadan 2K25" class="event-logo">
+            </div>
+
+            <button class="location-btn" id="locationBtn">
+                <i class="fas fa-map-marker-alt"></i> View Location
+            </button>
+
+            <div class="dates-container" id="datesContainer">
+                <div class="dates-title">Event Schedule Dates</div>
+                <div class="dates-grid">
+                    <div class="date-card" data-date="18/04/2025">
+                        <div class="date">18 April 2025</div>
+                        <div class="day">Friday</div>
+                    </div>
+                    <div class="date-card" data-date="19/04/2025">
+                        <div class="date">19 April 2025</div>
+                        <div class="day">Saturday</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="events-list" id="eventsList">
+                <div class="events-title" id="eventsTitle"></div>
+                <div class="events-grid" id="eventsGrid"></div>
+                <button class="back-btn" id="backToDatesBtn">Back to Dates</button>
+            </div>
+
+            <div class="event-details" id="eventDetails">
+                <div class="event-details-title" id="eventDetailsTitle"></div>
+                <div id="eventDetailsContent"></div>
+                <button class="back-btn" id="backToEventsBtn">Back to Events</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
